@@ -13,12 +13,12 @@ export default function CheckoutHeader() {
             <NavLink to="/">
               <img
                 className="amazon-logo"
-                src="./public/images/amazon-logo.png"
+                src="./images/amazon-logo.png"
                 alt="Amazon Logo"
               />
               <img
                 className="amazon-mobile-logo"
-                src="./public/images/amazon-mobile-logo.png"
+                src="./images/amazon-mobile-logo.png"
                 alt="Amazon Mobile Logo"
               />
             </NavLink>
@@ -34,7 +34,7 @@ export default function CheckoutHeader() {
 
           <div className="checkout-header-right-section">
             <img
-              src="./public/images/icons/checkout-lock-icon.png"
+              src="/images/icons/checkout-lock-icon.png"
               alt="Checkout Lock Icon"
             />
           </div>

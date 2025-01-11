@@ -12,12 +12,12 @@ export default function Header() {
           <NavLink to="/" className="header-link">
             <img
               className="amazon-logo"
-              src="./public/images/amazon-logo-white.png"
+              src="./images/amazon-logo-white.png"
               alt="Amazon Logo"
             />
             <img
               className="amazon-mobile-logo"
-              src="./public/images/amazon-mobile-logo-white.png"
+              src="./images/amazon-mobile-logo-white.png"
               alt="Amazon Mobile Logo"
             />
           </NavLink>
@@ -29,7 +29,7 @@ export default function Header() {
           <button className="search-button">
             <img
               className="search-icon"
-              src="./public/images/icons/search-icon.png"
+              src="./images/icons/search-icon.png"
               alt="Search Icon"
             />
           </button>
@@ -44,7 +44,7 @@ export default function Header() {
           <NavLink className="cart-link header-link" to="/checkout">
             <img
               className="cart-icon"
-              src="./public/images/icons/cart-icon.png"
+              src="./images/icons/cart-icon.png"
               alt="Cart Icon"
             />
             <div className="cart-quantity js-cart-quantity">{length}</div>
