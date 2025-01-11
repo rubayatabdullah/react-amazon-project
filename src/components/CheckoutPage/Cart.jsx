@@ -69,10 +69,7 @@ export default function Cart() {
         <div className="delivery-date">Delivery date: {dateString}</div>
 
         <div className="cart-item-details-grid">
-          <img
-            className="product-image"
-            src={`./public/${matchingProduct.image}`}
-          />
+          <img className="product-image" src={`./${matchingProduct.image}`} />
 
           <div className="cart-item-details">
             <div className="product-name">{matchingProduct.name}</div>
